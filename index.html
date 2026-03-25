@@ -105,11 +105,9 @@
                     <h3 class="game-title">Eco Tales: Clean the Earth</h3>
                     <p class="game-desc" data-tr="Doğayı korumayı ve geri dönüşümü öğreten, sürükleyici ve eğitici bir macera oyunu." data-en="An immersive and educational adventure game that teaches nature conservation and recycling.">Doğayı korumayı ve geri dönüşümü öğreten, sürükleyici ve eğitici bir macera oyunu.</p>
                     <div class="game-tags">
-                        <span class="tag">Eğitici</span>
-                        <span class="tag">Macera</span>
-                        <span class="tag">Yatay</span>
+                        <span class="tag">Eğitici</span><span class="tag">Macera</span><span class="tag">Yatay</span>
                     </div>
-                    <button class="play-btn" onclick="openModal('modal-ecotales')" data-tr="GALERİYİ İNCELE" data-en="VIEW GALLERY">GALERİYİ İNCELE</button>
+                    <button class="play-btn" onclick="openModal('modal-ecotales')" data-tr="OYUNU İNCELE" data-en="VIEW GAME">OYUNU İNCELE</button>
                 </div>
             </div>
 
@@ -125,10 +123,9 @@
                     <h3 class="game-title">Faruk Flick Up</h3>
                     <p class="game-desc" data-tr="Reflekslerinizi test eden dikey beceri oyunu." data-en="Vertical skill game testing your reflexes.">Reflekslerinizi test eden dikey beceri oyunu.</p>
                     <div class="game-tags">
-                        <span class="tag">Arcade</span>
-                        <span class="tag">Dikey</span>
+                        <span class="tag">Arcade</span><span class="tag">Dikey</span>
                     </div>
-                    <button class="play-btn" onclick="openModal('modal-faruk')" data-tr="GALERİ & İNDİR" data-en="GALLERY & DOWNLOAD">GALERİ & İNDİR</button>
+                    <button class="play-btn" onclick="openModal('modal-faruk')" data-tr="OYUNU İNCELE" data-en="VIEW GAME">OYUNU İNCELE</button>
                 </div>
             </div>
 
@@ -144,11 +141,9 @@
                     <h3 class="game-title">Bamboozle</h3>
                     <p class="game-desc" data-tr="Eğlenceli bulmacalar ve zeka zorlayıcı mekaniklerle dolu keyifli bir mobil deneyim." data-en="A delightful mobile experience full of fun puzzles and brain-teasing mechanics.">Eğlenceli bulmacalar ve zeka zorlayıcı mekaniklerle dolu keyifli bir mobil deneyim.</p>
                     <div class="game-tags">
-                        <span class="tag">Bulmaca</span>
-                        <span class="tag">Eğlence</span>
-                        <span class="tag">Dikey</span>
+                        <span class="tag">Bulmaca</span><span class="tag">Eğlence</span><span class="tag">Dikey</span>
                     </div>
-                    <button class="play-btn" onclick="openModal('modal-bamboozle')" data-tr="GALERİYİ İNCELE" data-en="VIEW GALLERY">GALERİYİ İNCELE</button>
+                    <button class="play-btn" onclick="openModal('modal-bamboozle')" data-tr="OYUNU İNCELE" data-en="VIEW GAME">OYUNU İNCELE</button>
                 </div>
             </div>
 
@@ -215,64 +210,125 @@
     </footer>
 
     <div id="modal-ecotales" class="modal">
-        <div class="modal-content">
+        <div class="modal-content store-panel">
             <span class="close-btn" onclick="closeModal('modal-ecotales')">&times;</span>
-            <h2 class="modal-title">Eco Tales Galerisi</h2>
-            <div class="slider-container">
-                <div class="slider-images ecotales-slider">
-                    <video src="assets/videos/eco-tales-trailer.mp4" class="active object-contain" autoplay loop muted controls playsinline></video>
-                    <img src="assets/images/games/eco-tales/eco-tales-01-menu.png">
-                    <img src="assets/images/games/eco-tales/eco-tales-02-gameplay-1.png">
-                    <img src="assets/images/games/eco-tales/eco-tales-03-gameplay-2.png">
-                    <img src="assets/images/games/eco-tales/eco-tales-04-level-1.png">
-                    <img src="assets/images/games/eco-tales/eco-tales-05-level-5.png">
-                    <img src="assets/images/games/eco-tales/eco-tales-06-character.png">
-                    <img src="assets/images/games/eco-tales/eco-tales-07-ui.png">
-                    <img src="assets/images/games/eco-tales/eco-tales-08-environment.png">
-                    <img src="assets/images/games/eco-tales/eco-tales-09-action.png">
-                    <img src="assets/images/games/eco-tales/eco-tales-10-reward.png">
+            
+            <div class="store-header">
+                <img src="assets/images/games/eco-tales/eco-tales-icon.png" class="store-main-icon" alt="Eco Tales">
+                <div class="store-title-area">
+                    <h2>Eco Tales: Clean the Earth</h2>
+                    <span class="store-developer">Murat Erdemir</span>
+                    <p class="store-spot" data-tr="Doğanın kahramana ihtiyacı var! Eğlenirken doğayı korumayı öğren." data-en="Nature needs a hero! Learn to protect nature while having fun.">Doğanın kahramana ihtiyacı var! Eğlenirken doğayı korumayı öğren.</p>
                 </div>
-                <button class="slider-btn prev" onclick="moveSlide('ecotales-slider', -1)">&#10094;</button>
-                <button class="slider-btn next" onclick="moveSlide('ecotales-slider', 1)">&#10095;</button>
+                <div class="store-action">
+                    <span class="store-status" data-tr="ÇOK YAKINDA" data-en="COMING SOON">ÇOK YAKINDA</span>
+                </div>
+            </div>
+
+            <div class="store-media-scroll">
+                <video src="assets/videos/eco-tales-trailer.mp4" autoplay loop muted playsinline controls></video>
+                <img src="assets/images/games/eco-tales/eco-tales-01-menu.png">
+                <img src="assets/images/games/eco-tales/eco-tales-02-gameplay-1.png">
+                <img src="assets/images/games/eco-tales/eco-tales-03-gameplay-2.png">
+                <img src="assets/images/games/eco-tales/eco-tales-04-level-1.png">
+                <img src="assets/images/games/eco-tales/eco-tales-05-level-5.png">
+                <img src="assets/images/games/eco-tales/eco-tales-06-character.png">
+            </div>
+
+            <div class="store-description">
+                <h3 data-tr="🌟 BU OYUN HAKKINDA" data-en="🌟 ABOUT THIS GAME">🌟 BU OYUN HAKKINDA</h3>
+                <p data-tr="Eco Tales: Clean the Earth'ün büyülü ve el çizimi dünyasına hoş geldin! Göl, orman, tarla ve kasaba maalesef çöplerle doldu ve doğanın dengesi bozuldu. Eğlenceli ve tatmin edici geri dönüşüm görevleriyle çevreyi temizle, doğayı iyileştir. Temizlediğin her bölge için eşsiz, el çizimi bir hikaye kartı kazanacaksın. Hem çocuklar hem de içindeki çocuğu yaşatanlar için tasarlanan bu oyun, şiddet içermeyen güvenli yapısıyla ekrana bakarak geçirilen zamanı 'anlamlı ve eğitici' bir maceraya dönüştürüyor." data-en="Welcome to the magical, hand-drawn world of Eco Tales: Clean the Earth! The lake, forest, field, and town are unfortunately filled with trash. Clean the environment and heal nature with fun and satisfying recycling missions. Earn a unique, hand-drawn story card for every area you clean. Designed for both children and the young at heart, this game turns screen time into a 'meaningful and educational' adventure with its non-violent, safe structure.">Eco Tales: Clean the Earth'ün büyülü ve el çizimi dünyasına hoş geldin! Göl, orman, tarla ve kasaba maalesef çöplerle doldu ve doğanın dengesi bozuldu. Eğlenceli ve tatmin edici geri dönüşüm görevleriyle çevreyi temizle, doğayı iyileştir. Temizlediğin her bölge için eşsiz, el çizimi bir hikaye kartı kazanacaksın. Hem çocuklar hem de içindeki çocuğu yaşatanlar için tasarlanan bu oyun, şiddet içermeyen güvenli yapısıyla ekrana bakarak geçirilen zamanı 'anlamlı ve eğitici' bir maceraya dönüştürüyor.</p>
+                
+                <h3 data-tr="✨ ÖNE ÇIKAN ÖZELLİKLER" data-en="✨ KEY FEATURES">✨ ÖNE ÇIKAN ÖZELLİKLER</h3>
+                <ul class="store-features">
+                    <li><span data-tr="♻️ Tatmin Edici Temizlik Mekaniği:" data-en="♻️ Satisfying Cleaning Mechanics:">♻️ Tatmin Edici Temizlik Mekaniği:</span> <span data-tr="Çöpleri topla, doğru kutulara at ve doğanın yeşermesini izle." data-en="Collect trash, put it in the right bins, and watch nature bloom.">Çöpleri topla, doğru kutulara at ve doğanın yeşermesini izle.</span></li>
+                    <li><span data-tr="📖 Büyülü Masal Kitabı:" data-en="📖 Magical Storybook:">📖 Büyülü Masal Kitabı:</span> <span data-tr="Kazandığın 20'den fazla benzersiz hikaye kartını topla." data-en="Collect over 20 unique story cards you've earned.">Kazandığın 20'den fazla benzersiz hikaye kartını topla.</span></li>
+                    <li><span data-tr="🎵 Profesyonel Seslendirme:" data-en="🎵 Professional Voice Acting:">🎵 Profesyonel Seslendirme:</span> <span data-tr="Her kartın kendine ait profesyonelce seslendirilmiş bir masalı var." data-en="Each card has its own professionally voiced fairy tale.">Her kartın kendine ait profesyonelce seslendirilmiş bir masalı var.</span></li>
+                    <li><span data-tr="🎨 Göz Alıcı 2D Sanat:" data-en="🎨 Stunning 2D Art:">🎨 Göz Alıcı 2D Sanat:</span> <span data-tr="Karakterler ve arka planlar çocuk kitaplarından fırlamış gibi özenle çizildi." data-en="Characters and backgrounds are carefully hand-drawn like a children's book.">Karakterler ve arka planlar çocuk kitaplarından fırlamış gibi özenle çizildi.</span></li>
+                    <li><span data-tr="🛡️ %100 Güvenli ve Eğitici:" data-en="🛡️ 100% Safe & Educational:">🛡️ %100 Güvenli ve Eğitici:</span> <span data-tr="Çevre bilincini şiddetsiz ve eğlenceli bir yolla aşılar." data-en="Instills environmental awareness in a non-violent and fun way.">Çevre bilincini şiddetsiz ve eğlenceli bir yolla aşılar.</span></li>
+                </ul>
             </div>
         </div>
     </div>
 
     <div id="modal-faruk" class="modal">
-        <div class="modal-content">
+        <div class="modal-content store-panel">
             <span class="close-btn" onclick="closeModal('modal-faruk')">&times;</span>
-            <h2 class="modal-title">Faruk Flick Up Galerisi</h2>
-            <div class="slider-container">
-                <div class="slider-images faruk-slider">
-                    <video src="assets/videos/faruk-flick-up-promo.mp4" class="active object-contain" autoplay loop muted controls playsinline></video>
-                    <img src="assets/images/games/faruk-flick-up/faruk-flick-up-02-menu.png" class="object-contain">
-                    <img src="assets/images/games/faruk-flick-up/faruk-flick-up-02-game-01.png" class="object-contain">
-                    <img src="assets/images/games/faruk-flick-up/faruk-flick-up-02-game-02.png" class="object-contain">
-                    <img src="assets/images/games/faruk-flick-up/faruk-flick-up-02-theme.png" class="object-contain">
+            
+            <div class="store-header">
+                <img src="assets/images/games/faruk-flick-up/faruk-flick-up-01-icon.png" class="store-main-icon" alt="Faruk Flick Up">
+                <div class="store-title-area">
+                    <h2>Faruk Flick Up</h2>
+                    <span class="store-developer">Murat Erdemir</span>
+                    <p class="store-spot" data-tr="Renkleri eşleştir, yukarı fırlat ve kaosta hayatta kal! Gözünü kırpma!" data-en="Match colors, flick up, and survive the chaos! Don't blink!">Renkleri eşleştir, yukarı fırlat ve kaosta hayatta kal! Gözünü kırpma!</p>
                 </div>
-                <button class="slider-btn prev" onclick="moveSlide('faruk-slider', -1)">&#10094;</button>
-                <button class="slider-btn next" onclick="moveSlide('faruk-slider', 1)">&#10095;</button>
+                <div class="store-action">
+                    <a href="https://play.google.com/store/apps/details?id=com.FarukGames.FarukFlickUp" target="_blank" class="store-download-btn">
+                        <span class="icon">🎮</span> GET IT ON GOOGLE PLAY
+                    </a>
+                </div>
             </div>
-            <a href="https://play.google.com/store/apps/details?id=com.FarukGames.FarukFlickUp&pcampaignid=web_share" target="_blank" class="download-btn">
-                🎮 Google Play'den İndir
-            </a>
+
+            <div class="store-media-scroll">
+                <video src="assets/videos/faruk-flick-up-promo.mp4" autoplay loop muted playsinline controls></video>
+                <img src="assets/images/games/faruk-flick-up/faruk-flick-up-02-menu.png">
+                <img src="assets/images/games/faruk-flick-up/faruk-flick-up-02-game-01.png">
+                <img src="assets/images/games/faruk-flick-up/faruk-flick-up-02-game-02.png">
+                <img src="assets/images/games/faruk-flick-up/faruk-flick-up-02-theme.png">
+            </div>
+
+            <div class="store-description">
+                <h3 data-tr="📖 BU OYUN HAKKINDA" data-en="📖 ABOUT THIS GAME">📖 BU OYUN HAKKINDA</h3>
+                <p data-tr="Sadece bir oyun değil, beynin için bir hız testi! Faruk Flick Up, basit bir 'kaydır ve at' oyunundan çok daha fazlasıdır. Giderek artan temposuyla el-göz koordinasyonunu, odaklanma süreni ve baskı altında doğru karar verme yeteneğini keskinleştirir. Öğrenmesi saniyeler sürer, ustalaşması ise gerçek bir yetenek ister. Hata affetmeyen sistemiyle, her denemede daha da hırslanacak ve kendi sınırlarını aşacaksın." data-en="Not just a game, but a speed test for your brain! Faruk Flick Up is much more than a simple 'swipe and toss' game. With its ever-increasing tempo, it sharpens your hand-eye coordination, focus, and decision-making under pressure. It takes seconds to learn, but requires true skill to master. With its unforgiving system, you'll get more ambitious with every attempt and push beyond your limits.">Sadece bir oyun değil, beynin için bir hız testi! Faruk Flick Up, basit bir 'kaydır ve at' oyunundan çok daha fazlasıdır. Giderek artan temposuyla el-göz koordinasyonunu, odaklanma süreni ve baskı altında doğru karar verme yeteneğini keskinleştirir. Öğrenmesi saniyeler sürer, ustalaşması ise gerçek bir yetenek ister. Hata affetmeyen sistemiyle, her denemede daha da hırslanacak ve kendi sınırlarını aşacaksın.</p>
+                
+                <h3 data-tr="🌟 ÖNE ÇIKAN ÖZELLİKLER" data-en="🌟 KEY FEATURES">🌟 ÖNE ÇIKAN ÖZELLİKLER</h3>
+                <ul class="store-features">
+                    <li><span data-tr="⚡ Odaklanma & Refleks:" data-en="⚡ Focus & Reflexes:">⚡ Odaklanma & Refleks:</span> <span data-tr="Gözünü ayırdığın an kaybedersin." data-en="The moment you look away, you lose.">Gözünü ayırdığın an kaybedersin.</span></li>
+                    <li><span data-tr="🔥 Boss Modu (Kaos):" data-en="🔥 Boss Mode (Chaos):">🔥 Boss Modu (Kaos):</span> <span data-tr="Oyun ilerledikçe hız ve yer çekimi çıldırır. Sadece en hızlılar sağ çıkabilir." data-en="Speed and gravity go crazy as you progress. Only the fastest survive.">Oyun ilerledikçe hız ve yer çekimi çıldırır. Sadece en hızlılar sağ çıkabilir.</span></li>
+                    <li><span data-tr="🎨 Kusursuz Pixel Art:" data-en="🎨 Flawless Pixel Art:">🎨 Kusursuz Pixel Art:</span> <span data-tr="Büyülü sonbahar ormanlarından, gizemli yıldızlı gecelere... Kendi temanı seç." data-en="From magical autumn forests to starry nights... Choose your theme.">Büyülü sonbahar ormanlarından, gizemli yıldızlı gecelere... Kendi temanı seç.</span></li>
+                    <li><span data-tr="⚔️ Bileğinin Hakkı (No P2W):" data-en="⚔️ Pure Skill (No P2W):">⚔️ Bileğinin Hakkı (No P2W):</span> <span data-tr="Parayı veren değil, iyi olan kazanır! Jetonları yeteneğinle topla." data-en="Not the one who pays, but the one who plays well wins! Earn coins with skill.">Parayı veren değil, iyi olan kazanır! Jetonları yeteneğinle topla.</span></li>
+                    <li><span data-tr="🎵 Retro Hissiyat:" data-en="🎵 Retro Feel:">🎵 Retro Hissiyat:</span> <span data-tr="16-bit grafikler, haptic titreşim ve kalp atışını hızlandıran arcade müzikleri." data-en="16-bit graphics, haptic feedback, and pumping arcade music.">16-bit grafikler, haptic titreşim ve kalp atışını hızlandıran arcade müzikleri.</span></li>
+                </ul>
+            </div>
         </div>
     </div>
 
     <div id="modal-bamboozle" class="modal">
-        <div class="modal-content">
+        <div class="modal-content store-panel">
             <span class="close-btn" onclick="closeModal('modal-bamboozle')">&times;</span>
-            <h2 class="modal-title">Bamboozle Galerisi</h2>
-            <div class="slider-container">
-                <div class="slider-images bamboozle-slider">
-                    <video src="assets/videos/bamboozle-gameplay.mp4" class="active object-contain" autoplay loop muted controls playsinline></video>
-                    <img src="assets/images/games/bamboozle/bamboozle-01.png" class="object-contain">
-                    <img src="assets/images/games/bamboozle/bamboozle-02.png" class="object-contain">
-                    <img src="assets/images/games/bamboozle/banboozle-03.png" class="object-contain">
-                    <img src="assets/images/games/bamboozle/bamboozle-04.png" class="object-contain">
+            
+            <div class="store-header">
+                <img src="assets/images/games/bamboozle/bamboozle-icon.png" class="store-main-icon" alt="Bamboozle">
+                <div class="store-title-area">
+                    <h2>Bamboozle</h2>
+                    <span class="store-developer">Murat Erdemir</span>
+                    <p class="store-spot" data-tr="Doğru zamanda dokun, kırmızı tuzaklara düşme ve o sincabı sakın güldürme!" data-en="Tap at the right time, avoid red traps, and whatever you do... don't make that squirrel laugh!">Doğru zamanda dokun, kırmızı tuzaklara düşme ve o sincabı sakın güldürme!</p>
                 </div>
-                <button class="slider-btn prev" onclick="moveSlide('bamboozle-slider', -1)">&#10094;</button>
-                <button class="slider-btn next" onclick="moveSlide('bamboozle-slider', 1)">&#10095;</button>
+                <div class="store-action">
+                    <span class="store-status" data-tr="ÇOK YAKINDA" data-en="COMING SOON">ÇOK YAKINDA</span>
+                </div>
+            </div>
+
+            <div class="store-media-scroll">
+                <video src="assets/videos/bamboozle-gameplay.mp4" autoplay loop muted playsinline controls></video>
+                <img src="assets/images/games/bamboozle/bamboozle-01.png">
+                <img src="assets/images/games/bamboozle/bamboozle-02.png">
+                <img src="assets/images/games/bamboozle/banboozle-03.png">
+                <img src="assets/images/games/bamboozle/bamboozle-04.png">
+            </div>
+
+            <div class="store-description">
+                <h3 data-tr="🧠 BEYNİNİ YAKAN REFLEKS TESTİ" data-en="🧠 BRAIN-MELTING REFLEX TEST">🧠 BEYNİNİ YAKAN REFLEKS TESTİ</h3>
+                <p data-tr="Göründüğü kadar basit değil! Ekranda fırıldak gibi dönen bir ibre ve sana verilen bir yön komutu var (YUKARI, AŞAĞI, SAĞ, SOL). İbre doğru yönü gösterdiğinde ekrana dokun ve puanı kap. Bekle... Bamboozle'ın sana ufak bir sürprizi var! Eğer ekrandaki yazı BEYAZ ise yazanı yap. Ancak yazı KIRMIZI renkliyse, işte o zaman kurallar değişir: TAM TERSİNİ YAPMALISIN! Ekranda kırmızı renkle 'SOL' mu yazıyor? İbre 'SAĞ' yönüne geldiğinde dokunmalısın!" data-en="It's not as simple as it looks! There's a spinning pointer and a direction command (UP, DOWN, RIGHT, LEFT). Tap when it points the right way. Wait... Bamboozle has a little surprise for you! If the text is WHITE, do as it says. But if it's RED, the rules change: DO THE EXACT OPPOSITE! Does it say 'LEFT' in red? You must tap when the pointer faces 'RIGHT'!">Göründüğü kadar basit değil! Ekranda fırıldak gibi dönen bir ibre ve sana verilen bir yön komutu var (YUKARI, AŞAĞI, SAĞ, SOL). İbre doğru yönü gösterdiğinde ekrana dokun ve puanı kap. Bekle... Bamboozle'ın sana ufak bir sürprizi var! Eğer ekrandaki yazı BEYAZ ise yazanı yap. Ancak yazı KIRMIZI renkliyse, işte o zaman kurallar değişir: TAM TERSİNİ YAPMALISIN! Ekranda kırmızı renkle 'SOL' mu yazıyor? İbre 'SAĞ' yönüne geldiğinde dokunmalısın!</p>
+                
+                <h3 data-tr="✨ ÖZELLİKLER" data-en="✨ FEATURES">✨ ÖZELLİKLER</h3>
+                <ul class="store-features">
+                    <li><span data-tr="🐿️ Hata Yapma:" data-en="🐿️ Don't Make a Mistake:">🐿️ Hata Yapma:</span> <span data-tr="Yanlış yaparsan fırlama pixel sincap omuzlarını sarsarak sana güler!" data-en="If you fail, the cheeky pixel squirrel will laugh at you!">Yanlış yaparsan fırlama pixel sincap omuzlarını sarsarak sana güler!</span></li>
+                    <li><span data-tr="🧩 Ters Köşe Mekanikler:" data-en="🧩 Mind-Bending Mechanics:">🧩 Ters Köşe Mekanikler:</span> <span data-tr="Basit kontroller, ustalaşması inanılmaz zor akıl oyunları." data-en="Simple controls, incredibly hard-to-master mind games.">Basit kontroller, ustalaşması inanılmaz zor akıl oyunları.</span></li>
+                    <li><span data-tr="🚀 Adrenalin Dolu Hız:" data-en="🚀 Adrenaline Speed:">🚀 Adrenalin Dolu Hız:</span> <span data-tr="Puan kazandıkça oyun hızlanır, kalp ritmin artar!" data-en="The game speeds up as you score, raising your heart rate!">Puan kazandıkça oyun hızlanır, kalp ritmin artar!</span></li>
+                    <li><span data-tr="🕹️ Retro Arcade Tarzı:" data-en="🕹️ Retro Arcade Style:">🕹️ Retro Arcade Tarzı:</span> <span data-tr="Canlı 16-bit grafikler ve atari salonu müzikleri." data-en="Vibrant 16-bit graphics and arcade hall music.">Canlı 16-bit grafikler ve atari salonu müzikleri.</span></li>
+                    <li><span data-tr="📱 Tek Parmakla Oynanış:" data-en="📱 One-Finger Gameplay:">📱 Tek Parmakla Oynanış:</span> <span data-tr="İster yolda, ister molada anında aksiyona dal." data-en="Dive into action instantly, whether on the go or during a break.">İster yolda, ister molada anında aksiyona dal.</span></li>
+                </ul>
             </div>
         </div>
     </div>
