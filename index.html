@@ -88,10 +88,11 @@
         </div>
     </section>
 
-    <section id="games" class="reveal">
+   <section id="games" class="reveal">
         <h2 class="section-title" data-tr="OYUN KOLEKSİYONU" data-en="GAME COLLECTION">OYUN KOLEKSİYONU</h2>
         
         <div class="games-grid">
+            
             <div class="game-card card-horizontal reveal" onmouseenter="playVideo(this)" onmouseleave="pauseVideo(this)">
                 <div class="game-media">
                     <img src="assets/images/games/eco-tales/eco-tales-02-gameplay-1.png" alt="Eco Tales" class="game-cover">
@@ -104,32 +105,35 @@
                     <h3 class="game-title">Eco Tales: Clean the Earth</h3>
                     <p class="game-desc" data-tr="Doğayı korumayı ve geri dönüşümü öğreten, sürükleyici ve eğitici bir macera oyunu." data-en="An immersive and educational adventure game that teaches nature conservation and recycling.">Doğayı korumayı ve geri dönüşümü öğreten, sürükleyici ve eğitici bir macera oyunu.</p>
                     <div class="game-tags">
-                        <span class="tag">Eğitici</span><span class="tag">Macera</span><span class="tag">Yatay</span>
+                        <span class="tag">Eğitici</span>
+                        <span class="tag">Macera</span>
+                        <span class="tag">Yatay</span>
                     </div>
                     <button class="play-btn" onclick="openModal('modal-ecotales')" data-tr="GALERİYİ İNCELE" data-en="VIEW GALLERY">GALERİYİ İNCELE</button>
                 </div>
             </div>
 
-            <div class="game-card card-horizontal reveal" onmouseenter="playVideo(this)" onmouseleave="pauseVideo(this)">
-                <div class="game-media">
-                    <img src="assets/images/games/faruk-flick-up/faruk-flick-up-02-game-01.png" alt="Faruk Flick Up" class="game-cover" style="object-position: top;">
-                    <video src="assets/videos/faruk-flick-up-promo.mp4" muted loop playsinline class="game-video object-contain"></video>
+            <div class="game-card card-vertical reveal" onmouseenter="playVideo(this)" onmouseleave="pauseVideo(this)">
+                <div class="game-media dikey-mockup">
+                    <img src="assets/images/games/faruk-flick-up/faruk-flick-up-02-game-01.png" alt="Faruk Flick Up" class="game-cover">
+                    <video src="assets/videos/faruk-flick-up-promo.mp4" muted loop playsinline class="game-video"></video>
                     <div class="game-icon-overlay">
                         <img src="assets/images/games/faruk-flick-up/faruk-flick-up-01-icon.png" alt="Faruk Flick Up Icon">
                     </div>
                 </div>
                 <div class="game-info">
                     <h3 class="game-title">Faruk Flick Up</h3>
-                    <p class="game-desc" data-tr="Reflekslerinizi test eden, hızlı tempolu ve bağımlılık yapan dikey formatta bir beceri oyunu." data-en="A fast-paced and addictive vertical skill game that tests your reflexes.">Reflekslerinizi test eden, hızlı tempolu ve bağımlılık yapan dikey formatta bir beceri oyunu.</p>
+                    <p class="game-desc" data-tr="Reflekslerinizi test eden dikey beceri oyunu." data-en="Vertical skill game testing your reflexes.">Reflekslerinizi test eden dikey beceri oyunu.</p>
                     <div class="game-tags">
-                        <span class="tag">Arcade</span><span class="tag">Beceri</span><span class="tag">Dikey</span>
+                        <span class="tag">Arcade</span>
+                        <span class="tag">Dikey</span>
                     </div>
                     <button class="play-btn" onclick="openModal('modal-faruk')" data-tr="GALERİ & İNDİR" data-en="GALLERY & DOWNLOAD">GALERİ & İNDİR</button>
                 </div>
             </div>
 
             <div class="game-card card-vertical reveal" onmouseenter="playVideo(this)" onmouseleave="pauseVideo(this)">
-                <div class="game-media">
+                <div class="game-media dikey-mockup">
                     <img src="assets/images/games/bamboozle/bamboozle-01.png" alt="Bamboozle" class="game-cover">
                     <video src="assets/videos/bamboozle-gameplay.mp4" muted loop playsinline class="game-video"></video>
                     <div class="game-icon-overlay">
@@ -138,49 +142,15 @@
                 </div>
                 <div class="game-info">
                     <h3 class="game-title">Bamboozle</h3>
-                    <p class="game-desc" data-tr="Eğlenceli bulmacalar ve zeka zorlayıcı mekaniklerle dolu keyifli bir mobil deneyim." data-en="A delightful mobile experience full of fun puzzles and brain-teasing mechanics.">Eğlenceli bulmacalar ve zeka zorlayıcı mekaniklerle dolu keyifli bir mobil deneyim.</p>
+                    <p class="game-desc" data-tr="Eğlenceli bulmacalar ve zeka mekanikleri." data-en="Fun puzzles and logic mechanics.">Eğlenceli bulmacalar ve zeka mekanikleri.</p>
                     <div class="game-tags">
-                        <span class="tag">Bulmaca</span><span class="tag">Eğlence</span><span class="tag">Dikey</span>
+                        <span class="tag">Bulmaca</span>
+                        <span class="tag">Dikey</span>
                     </div>
                     <button class="play-btn" onclick="openModal('modal-bamboozle')" data-tr="GALERİYİ İNCELE" data-en="VIEW GALLERY">GALERİYİ İNCELE</button>
                 </div>
             </div>
-        </div>
-    </section>
 
-    <section id="skills" class="reveal">
-        <h2 class="section-title" data-tr="YETENEK AĞACI" data-en="SKILL TREE">YETENEK AĞACI</h2>
-        <div class="skills-container">
-            <div class="skill-card reveal">
-                <span class="skill-icon">📚</span>
-                <h3 class="skill-name" data-tr="Eğitim" data-en="Education">Eğitim</h3>
-                <p data-tr="15 Yıllık Tecrübe" data-en="15 Years Experience">15 Yıllık Tecrübe</p>
-                <div class="skill-bar"><div class="skill-progress" style="width: 95%"></div></div>
-            </div>
-            <div class="skill-card reveal">
-                <span class="skill-icon">🎮</span>
-                <h3 class="skill-name">Unity</h3>
-                <p data-tr="Bağımsız Geliştirici" data-en="Indie Developer">Bağımsız Geliştirici</p>
-                <div class="skill-bar"><div class="skill-progress" style="width: 80%"></div></div>
-            </div>
-            <div class="skill-card reveal">
-                <span class="skill-icon">📱</span>
-                <h3 class="skill-name">Android</h3>
-                <p data-tr="Mobil Geliştirme" data-en="Mobile Development">Mobil Geliştirme</p>
-                <div class="skill-bar"><div class="skill-progress" style="width: 85%"></div></div>
-            </div>
-            <div class="skill-card reveal">
-                <span class="skill-icon">🎨</span>
-                <h3 class="skill-name" data-tr="Tasarım" data-en="Design">Tasarım</h3>
-                <p data-tr="UI/UX & Grafik" data-en="UI/UX & Graphic">UI/UX & Grafik</p>
-                <div class="skill-bar"><div class="skill-progress" style="width: 90%"></div></div>
-            </div>
-            <div class="skill-card reveal">
-                <span class="skill-icon">💻</span>
-                <h3 class="skill-name">C#</h3>
-                <p data-tr="Programlama" data-en="Programming">Programlama</p>
-                <div class="skill-bar"><div class="skill-progress" style="width: 75%"></div></div>
-            </div>
         </div>
     </section>
 
