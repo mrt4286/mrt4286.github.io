@@ -377,6 +377,7 @@ section {
 .timeline-item:nth-child(odd) .timeline-dot { right: -10px; }
 .timeline-item:nth-child(even) .timeline-dot { left: -10px; }
 
+
 /* GAMES SECTION - PRO HYBRID DESIGN */
 .games-grid {
     display: flex;
@@ -478,6 +479,9 @@ section {
 .game-info {
     padding: 30px 25px;
     text-align: left;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
 }
 
 .game-title {
@@ -493,7 +497,9 @@ section {
     font-size: 0.95rem;
     margin-bottom: 20px;
     line-height: 1.6;
+    flex-grow: 1;
 }
+
 .game-tags {
     display: flex;
     gap: 10px;
@@ -694,6 +700,7 @@ footer {
 @media (max-width: 768px) {
     .cursor, .cursor-follower { display: none; }
 }
+
 /* WhatsApp Özel Rengi */
 .whatsapp-btn:hover {
     background: #25D366;
@@ -755,7 +762,7 @@ footer {
     font-size: 1.5rem;
 }
 
-/* Slider (Galeri) Stilleri */
+/* Slider (Galeri) Stilleri (VİDEO DESTEKLİ) */
 .slider-container {
     position: relative;
     width: 100%;
@@ -775,7 +782,9 @@ footer {
     position: relative;
 }
 
-.slider-images img {
+/* Hem img hem video etiketleri için ortak ayar */
+.slider-images img, 
+.slider-images video {
     width: 100%;
     height: 100%;
     object-fit: cover;
@@ -786,14 +795,19 @@ footer {
     transition: opacity 0.5s ease-in-out;
 }
 
-.slider-images img.active {
+/* Aktif olan görselin veya videonun görünmesi */
+.slider-images img.active, 
+.slider-images video.active {
     opacity: 1;
     z-index: 2;
 }
 
-/* Dikey oyun resimlerini tam sığdırmak için */
-.slider-images img.object-contain {
-    object-fit: contain;
+/* Dikey formatların kesilmeden tam sığması için */
+.slider-images img.object-contain, 
+.slider-images video.object-contain,
+.game-video.object-contain {
+    object-fit: contain !important;
+    background: #000;
 }
 
 .slider-btn {

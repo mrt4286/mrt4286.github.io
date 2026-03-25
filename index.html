@@ -88,7 +88,7 @@
         </div>
     </section>
 
-   <section id="games" class="reveal">
+    <section id="games" class="reveal">
         <h2 class="section-title" data-tr="OYUN KOLEKSİYONU" data-en="GAME COLLECTION">OYUN KOLEKSİYONU</h2>
         
         <div class="games-grid">
@@ -116,7 +116,7 @@
             <div class="game-card card-vertical reveal" onmouseenter="playVideo(this)" onmouseleave="pauseVideo(this)">
                 <div class="game-media dikey-mockup">
                     <img src="assets/images/games/faruk-flick-up/faruk-flick-up-02-game-01.png" alt="Faruk Flick Up" class="game-cover">
-                    <video src="assets/videos/faruk-flick-up-promo.mp4" muted loop playsinline class="game-video"></video>
+                    <video src="assets/videos/faruk-flick-up-promo.mp4" muted loop playsinline class="game-video object-contain"></video>
                     <div class="game-icon-overlay">
                         <img src="assets/images/games/faruk-flick-up/faruk-flick-up-01-icon.png" alt="Faruk Flick Up Icon">
                     </div>
@@ -135,22 +135,59 @@
             <div class="game-card card-vertical reveal" onmouseenter="playVideo(this)" onmouseleave="pauseVideo(this)">
                 <div class="game-media dikey-mockup">
                     <img src="assets/images/games/bamboozle/bamboozle-01.png" alt="Bamboozle" class="game-cover">
-                    <video src="assets/videos/bamboozle-gameplay.mp4" muted loop playsinline class="game-video"></video>
+                    <video src="assets/videos/bamboozle-gameplay.mp4" muted loop playsinline class="game-video object-contain"></video>
                     <div class="game-icon-overlay">
                         <img src="assets/images/games/bamboozle/bamboozle-icon.png" alt="Bamboozle Icon">
                     </div>
                 </div>
                 <div class="game-info">
                     <h3 class="game-title">Bamboozle</h3>
-                    <p class="game-desc" data-tr="Eğlenceli bulmacalar ve zeka mekanikleri." data-en="Fun puzzles and logic mechanics.">Eğlenceli bulmacalar ve zeka mekanikleri.</p>
+                    <p class="game-desc" data-tr="Eğlenceli bulmacalar ve zeka zorlayıcı mekaniklerle dolu keyifli bir mobil deneyim." data-en="A delightful mobile experience full of fun puzzles and brain-teasing mechanics.">Eğlenceli bulmacalar ve zeka zorlayıcı mekaniklerle dolu keyifli bir mobil deneyim.</p>
                     <div class="game-tags">
                         <span class="tag">Bulmaca</span>
+                        <span class="tag">Eğlence</span>
                         <span class="tag">Dikey</span>
                     </div>
                     <button class="play-btn" onclick="openModal('modal-bamboozle')" data-tr="GALERİYİ İNCELE" data-en="VIEW GALLERY">GALERİYİ İNCELE</button>
                 </div>
             </div>
 
+        </div>
+    </section>
+
+    <section id="skills" class="reveal">
+        <h2 class="section-title" data-tr="YETENEK AĞACI" data-en="SKILL TREE">YETENEK AĞACI</h2>
+        <div class="skills-container">
+            <div class="skill-card reveal">
+                <span class="skill-icon">📚</span>
+                <h3 class="skill-name" data-tr="Eğitim" data-en="Education">Eğitim</h3>
+                <p data-tr="15 Yıllık Tecrübe" data-en="15 Years Experience">15 Yıllık Tecrübe</p>
+                <div class="skill-bar"><div class="skill-progress" style="width: 95%"></div></div>
+            </div>
+            <div class="skill-card reveal">
+                <span class="skill-icon">🎮</span>
+                <h3 class="skill-name">Unity</h3>
+                <p data-tr="Bağımsız Geliştirici" data-en="Indie Developer">Bağımsız Geliştirici</p>
+                <div class="skill-bar"><div class="skill-progress" style="width: 80%"></div></div>
+            </div>
+            <div class="skill-card reveal">
+                <span class="skill-icon">📱</span>
+                <h3 class="skill-name">Android</h3>
+                <p data-tr="Mobil Geliştirme" data-en="Mobile Development">Mobil Geliştirme</p>
+                <div class="skill-bar"><div class="skill-progress" style="width: 85%"></div></div>
+            </div>
+            <div class="skill-card reveal">
+                <span class="skill-icon">🎨</span>
+                <h3 class="skill-name" data-tr="Tasarım" data-en="Design">Tasarım</h3>
+                <p data-tr="UI/UX & Grafik" data-en="UI/UX & Graphic">UI/UX & Grafik</p>
+                <div class="skill-bar"><div class="skill-progress" style="width: 90%"></div></div>
+            </div>
+            <div class="skill-card reveal">
+                <span class="skill-icon">💻</span>
+                <h3 class="skill-name">C#</h3>
+                <p data-tr="Programlama" data-en="Programming">Programlama</p>
+                <div class="skill-bar"><div class="skill-progress" style="width: 75%"></div></div>
+            </div>
         </div>
     </section>
 
@@ -183,7 +220,8 @@
             <h2 class="modal-title">Eco Tales Galerisi</h2>
             <div class="slider-container">
                 <div class="slider-images ecotales-slider">
-                    <img src="assets/images/games/eco-tales/eco-tales-01-menu.png" class="active">
+                    <video src="assets/videos/eco-tales-trailer.mp4" class="active object-contain" autoplay loop muted controls playsinline></video>
+                    <img src="assets/images/games/eco-tales/eco-tales-01-menu.png">
                     <img src="assets/images/games/eco-tales/eco-tales-02-gameplay-1.png">
                     <img src="assets/images/games/eco-tales/eco-tales-03-gameplay-2.png">
                     <img src="assets/images/games/eco-tales/eco-tales-04-level-1.png">
@@ -206,7 +244,8 @@
             <h2 class="modal-title">Faruk Flick Up Galerisi</h2>
             <div class="slider-container">
                 <div class="slider-images faruk-slider">
-                    <img src="assets/images/games/faruk-flick-up/faruk-flick-up-02-menu.png" class="active object-contain">
+                    <video src="assets/videos/faruk-flick-up-promo.mp4" class="active object-contain" autoplay loop muted controls playsinline></video>
+                    <img src="assets/images/games/faruk-flick-up/faruk-flick-up-02-menu.png" class="object-contain">
                     <img src="assets/images/games/faruk-flick-up/faruk-flick-up-02-game-01.png" class="object-contain">
                     <img src="assets/images/games/faruk-flick-up/faruk-flick-up-02-game-02.png" class="object-contain">
                     <img src="assets/images/games/faruk-flick-up/faruk-flick-up-02-theme.png" class="object-contain">
@@ -226,9 +265,11 @@
             <h2 class="modal-title">Bamboozle Galerisi</h2>
             <div class="slider-container">
                 <div class="slider-images bamboozle-slider">
-                    <img src="assets/images/games/bamboozle/bamboozle-01.png" class="active object-contain">
+                    <video src="assets/videos/bamboozle-gameplay.mp4" class="active object-contain" autoplay loop muted controls playsinline></video>
+                    <img src="assets/images/games/bamboozle/bamboozle-01.png" class="object-contain">
                     <img src="assets/images/games/bamboozle/bamboozle-02.png" class="object-contain">
-                    <img src="assets/images/games/bamboozle/banboozle-03.png" class="object-contain"> <img src="assets/images/games/bamboozle/bamboozle-04.png" class="object-contain">
+                    <img src="assets/images/games/bamboozle/banboozle-03.png" class="object-contain">
+                    <img src="assets/images/games/bamboozle/bamboozle-04.png" class="object-contain">
                 </div>
                 <button class="slider-btn prev" onclick="moveSlide('bamboozle-slider', -1)">&#10094;</button>
                 <button class="slider-btn next" onclick="moveSlide('bamboozle-slider', 1)">&#10095;</button>
