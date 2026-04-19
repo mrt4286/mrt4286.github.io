@@ -1,6 +1,6 @@
 function changeLang(lang) {
     document.querySelectorAll('[data-tr][data-en]').forEach(el => {
-        el.textContent = el.getAttribute('data-' + lang);
+        el.textContent = (lang === 'tr') ? el.getAttribute('data-tr') : el.getAttribute('data-en');
     });
     document.querySelectorAll('.lang-btn').forEach(btn => btn.classList.remove('active'));
     event.target.classList.add('active');
@@ -18,19 +18,6 @@ function reveal() {
 }
 window.addEventListener("scroll", reveal);
 reveal();
-
-const cursor = document.querySelector('.cursor');
-const follower = document.querySelector('.cursor-follower');
-if (cursor && follower) {
-    document.addEventListener('mousemove', (e) => {
-        cursor.style.left = e.clientX - 10 + 'px';
-        cursor.style.top = e.clientY - 10 + 'px';
-        setTimeout(() => {
-            follower.style.left = e.clientX - 20 + 'px';
-            follower.style.top = e.clientY - 20 + 'px';
-        }, 80);
-    });
-}
 
 function openModal(modalId) {
     document.getElementById(modalId).style.display = "block";
@@ -51,8 +38,9 @@ window.onclick = function(event) {
 
 function playVideo(card) {
     const video = card.querySelector('.game-video');
-    if (video) video.play();
+    if (video) video.play().catch(() => {});
 }
+
 function pauseVideo(card) {
     const video = card.querySelector('.game-video');
     if (video) video.pause();
