@@ -29,6 +29,12 @@
     </nav>
 
     <section class="hero" id="home">
+        <div class="floating-icons">
+            <div class="float-item" style="left: 10%; animation-delay: 0s;">🎮</div>
+            <div class="float-item" style="left: 30%; animation-delay: 5s;">📱</div>
+            <div class="float-item" style="left: 70%; animation-delay: 10s;">⚡</div>
+            <div class="float-item" style="left: 90%; animation-delay: 15s;">🎯</div>
+        </div>
         <div class="hero-profile-container reveal">
             <img src="assets/images/profile/murat-hero.jpg" alt="Murat Erdemir" class="hero-img">
         </div>
@@ -37,9 +43,44 @@
             <span data-tr="OYUN GELİŞTİRİCİ & EĞİTİMCİ" data-en="GAME DEVELOPER & EDUCATOR">OYUN GELİŞTİRİCİ & EĞİTİMCİ</span>
         </p>
         <p class="tagline" data-tr="Teknoloji ve Tasarım Öğretmeni olarak 15 yıllık deneyimimi, oyun geliştirme tutkumla birleştiriyorum. Eğitici ve eğlenceli mobil oyunlar üretiyorum." data-en="Combining 15 years of experience as a Technology and Design Teacher with my passion for game development. Creating educational and fun mobile games.">
-            Teknoloji ve Tasarım Öğretmeni olarak 15 yıllık deneyimimi, oyun geliştirme tutkumla birleştiriyorum.
+            Teknoloji ve Tasarım Öğretmeni olarak 15 yıllık deneyimimi, oyun geliştirme tutkumla birleştiriyorum. Eğitici ve eğlenceli mobil oyunlar üretiyorum.
         </p>
-        <a href="#academy" class="cta-button" data-tr="EĞİTİMLERİ İNCELE" data-en="VIEW COURSES">EĞİTİMLERİ İNCELE</a>
+        <a href="#academy" class="cta-button" data-tr="EĞİTİMLERİ İNCELE" data-en="EXPLORE COURSES">EĞİTİMLERİ İNCELE</a>
+    </section>
+
+    <section id="about" class="reveal">
+        <h2 class="section-title" data-tr="OYUNCU PROFİLİ" data-en="PLAYER PROFILE">OYUNCU PROFİLİ</h2>
+        <div class="about-content">
+            <div class="about-image-wrapper reveal">
+                <img src="assets/images/profile/murat-about.jpg" alt="About Murat" class="about-img">
+            </div>
+            <div class="timeline">
+                <div class="timeline-item reveal">
+                    <div class="timeline-content">
+                        <div class="timeline-year">2009</div>
+                        <h3 data-tr="Eğitim Kariyeri Başlangıcı" data-en="Teaching Career Start">Eğitim Kariyeri Başlangıcı</h3>
+                        <p data-tr="Teknoloji ve Tasarım Öğretmeni olarak göreve başladım. 15 yıldır öğrencilere teknoloji okuryazarlığı ve dijital tasarım öğretiyorum." data-en="Started as a Technology and Design Teacher. Teaching technology literacy and digital design to students for 15 years.">Teknoloji ve Tasarım Öğretmeni olarak göreve başladım. 15 yıldır öğrencilere teknoloji okuryazarlığı ve dijital tasarım öğretiyorum.</p>
+                    </div>
+                    <div class="timeline-dot"></div>
+                </div>
+                <div class="timeline-item reveal">
+                    <div class="timeline-content">
+                        <div class="timeline-year">2022</div>
+                        <h3 data-tr="Oyun Geliştirmeye Başlangıç" data-en="Started Game Development">Oyun Geliştirmeye Başlangıç</h3>
+                        <p data-tr="Eğitim ve oyun mantığını birleştirme fikriyle mobil oyun geliştirmeye başladım. Android platformu için bağımsız oyunlar üretmeye başladım." data-en="Started mobile game development with the idea of combining education and game mechanics. Began producing indie games for Android platform.">Eğitim ve oyun mantığını birleştirme fikriyle mobil oyun geliştirmeye başladım. Android platformu için bağımsız oyunlar üretmeye başladım.</p>
+                    </div>
+                    <div class="timeline-dot"></div>
+                </div>
+                <div class="timeline-item reveal">
+                    <div class="timeline-content">
+                        <div class="timeline-year">2024+</div>
+                        <h3 data-tr="Aktif Geliştirici & Eğitimci" data-en="Active Developer & Educator">Aktif Geliştirici & Eğitimci</h3>
+                        <p data-tr="Google Play Store'da aktif olarak oyun yayınlıyorum. Hem eğitici içerikler hem de eğlenceli oyunlar geliştirmeye devam ediyorum." data-en="Actively publishing games on Google Play Store. Continuing to develop both educational content and fun games.">Google Play Store'da aktif olarak oyun yayınlıyorum. Hem eğitici içerikler hem de eğlenceli oyunlar geliştirmeye devam ediyorum.</p>
+                    </div>
+                    <div class="timeline-dot"></div>
+                </div>
+            </div>
+        </div>
     </section>
 
     <section id="games" class="reveal">
@@ -53,17 +94,28 @@
                 </div>
                 <div class="game-info">
                     <h3 class="game-title">Eco Tales: Clean the Earth</h3>
+                    <p class="game-desc" data-tr="Doğayı korumayı ve geri dönüşümü öğreten, sürükleyici ve eğitici bir macera oyunu." data-en="An immersive and educational adventure game that teaches nature conservation and recycling.">Doğayı korumayı ve geri dönüşümü öğreten, sürükleyici ve eğitici bir macera oyunu.</p>
                     <button class="play-btn" onclick="openModal('modal-ecotales')" data-tr="OYUNU İNCELE" data-en="VIEW GAME">OYUNU İNCELE</button>
                 </div>
             </div>
             <div class="game-card card-vertical reveal" onmouseenter="playVideo(this)" onmouseleave="pauseVideo(this)">
                 <div class="game-media dikey-mockup">
                     <img src="assets/images/games/faruk-flick-up/faruk-flick-up-02-game-01.png" alt="Faruk Flick Up" class="game-cover">
-                    <video src="assets/videos/faruk-flick-up-promo.mp4" muted loop playsinline class="game-video"></video>
+                    <video src="assets/videos/faruk-flick-up-promo.mp4" muted loop playsinline class="game-video object-contain"></video>
                 </div>
                 <div class="game-info">
                     <h3 class="game-title">Faruk Flick Up</h3>
                     <button class="play-btn" onclick="openModal('modal-faruk')" data-tr="OYUNU İNCELE" data-en="VIEW GAME">OYUNU İNCELE</button>
+                </div>
+            </div>
+            <div class="game-card card-vertical reveal" onmouseenter="playVideo(this)" onmouseleave="pauseVideo(this)">
+                <div class="game-media dikey-mockup">
+                    <img src="assets/images/games/bamboozle/bamboozle-01.png" alt="Bamboozle" class="game-cover">
+                    <video src="assets/videos/bamboozle-gameplay.mp4" muted loop playsinline class="game-video object-contain"></video>
+                </div>
+                <div class="game-info">
+                    <h3 class="game-title">Bamboozle</h3>
+                    <button class="play-btn" onclick="openModal('modal-bamboozle')" data-tr="OYUNU İNCELE" data-en="VIEW GAME">OYUNU İNCELE</button>
                 </div>
             </div>
         </div>
@@ -71,164 +123,81 @@
 
     <section id="academy" class="reveal">
         <h2 class="section-title" data-tr="BİREBİR AKADEMİ" data-en="1-ON-1 ACADEMY">BİREBİR AKADEMİ</h2>
-        <p class="tagline" style="text-align: center; margin: 0 auto 40px;" data-tr="14 yıllık eğitim tecrübesi, Yapay Zeka ve Unity gücüyle birleşiyor. Geleceği tasarlamak için gününü seç!" data-en="14 years of teaching experience meets AI and Unity power. Choose your day to design the future!">
-            14 yıllık eğitim tecrübesi, Yapay Zeka ve Unity gücüyle birleşiyor. Geleceği tasarlamak için gününü seç!
+        <p class="tagline" style="text-align: center; margin: 0 auto 40px;" data-tr="14 yıllık eğitim tecrübesi, Yapay Zeka ve Unity gücüyle birleşiyor. Size uygun günü seçin." data-en="14 years of teaching experience meets AI and Unity power. Choose your day.">
+            14 yıllık eğitim tecrübesi, Yapay Zeka ve Unity gücüyle birleşiyor. Size uygun günü seçin.
         </p>
         <div class="games-grid">
             <div class="game-card card-vertical reveal">
                 <div class="game-media"><img src="assets/images/shopier/pazartesi.png" class="game-cover"></div>
                 <div class="game-info">
-                    <h3 class="game-title">Pazartesi Paketi</h3>
-                    <button class="play-btn" onclick="openModal('modal-pazartesi')">DETAY VE KAYIT</button>
+                    <h3 class="game-title" data-tr="Pazartesi Seansı" data-en="Monday Session">Pazartesi Seansı</h3>
+                    <button class="play-btn" onclick="openModal('modal-pazartesi')" data-tr="DETAY VE KAYIT" data-en="DETAILS">DETAY VE KAYIT</button>
                 </div>
             </div>
             <div class="game-card card-vertical reveal">
                 <div class="game-media"><img src="assets/images/shopier/sali.png" class="game-cover"></div>
                 <div class="game-info">
-                    <h3 class="game-title">Salı Paketi</h3>
-                    <button class="play-btn" onclick="openModal('modal-sali')">DETAY VE KAYIT</button>
+                    <h3 class="game-title" data-tr="Salı Seansı" data-en="Tuesday Session">Salı Seansı</h3>
+                    <button class="play-btn" onclick="openModal('modal-sali')" data-tr="DETAY VE KAYIT" data-en="DETAILS">DETAY VE KAYIT</button>
                 </div>
             </div>
             <div class="game-card card-vertical reveal">
                 <div class="game-media"><img src="assets/images/shopier/carsamba.png" class="game-cover"></div>
                 <div class="game-info">
-                    <h3 class="game-title">Çarşamba Paketi</h3>
-                    <button class="play-btn" onclick="openModal('modal-carsamba')">DETAY VE KAYIT</button>
+                    <h3 class="game-title" data-tr="Çarşamba Seansı" data-en="Wednesday Session">Çarşamba Seansı</h3>
+                    <button class="play-btn" onclick="openModal('modal-carsamba')" data-tr="DETAY VE KAYIT" data-en="DETAILS">DETAY VE KAYIT</button>
                 </div>
             </div>
             <div class="game-card card-vertical reveal">
                 <div class="game-media"><img src="assets/images/shopier/persembe.png" class="game-cover"></div>
                 <div class="game-info">
-                    <h3 class="game-title">Perşembe Paketi</h3>
-                    <button class="play-btn" onclick="openModal('modal-persembe')">DETAY VE KAYIT</button>
+                    <h3 class="game-title" data-tr="Perşembe Seansı" data-en="Thursday Session">Perşembe Seansı</h3>
+                    <button class="play-btn" onclick="openModal('modal-persembe')" data-tr="DETAY VE KAYIT" data-en="DETAILS">DETAY VE KAYIT</button>
                 </div>
             </div>
             <div class="game-card card-vertical reveal">
                 <div class="game-media"><img src="assets/images/shopier/cuma.png" class="game-cover"></div>
                 <div class="game-info">
-                    <h3 class="game-title">Cuma Paketi</h3>
-                    <button class="play-btn" onclick="openModal('modal-cuma')">DETAY VE KAYIT</button>
+                    <h3 class="game-title" data-tr="Cuma Seansı" data-en="Friday Session">Cuma Seansı</h3>
+                    <button class="play-btn" onclick="openModal('modal-cuma')" data-tr="DETAY VE KAYIT" data-en="DETAILS">DETAY VE KAYIT</button>
                 </div>
             </div>
         </div>
     </section>
 
     <section id="skills" class="reveal">
-        <h2 class="section-title">YETENEK AĞACI</h2>
+        <h2 class="section-title" data-tr="YETENEK AĞACI" data-en="SKILL TREE">YETENEK AĞACI</h2>
         <div class="skills-container">
-            <div class="skill-card"><span class="skill-icon">📚</span><h3>Eğitim</h3><div class="skill-bar"><div class="skill-progress" style="width: 95%"></div></div></div>
-            <div class="skill-card"><span class="skill-icon">🎮</span><h3>Unity</h3><div class="skill-bar"><div class="skill-progress" style="width: 80%"></div></div></div>
+            <div class="skill-card reveal"><span class="skill-icon">📚</span><h3 class="skill-name" data-tr="Eğitim" data-en="Education">Eğitim</h3><div class="skill-bar"><div class="skill-progress" style="width: 95%"></div></div></div>
+            <div class="skill-card reveal"><span class="skill-icon">🎮</span><h3 class="skill-name">Unity</h3><div class="skill-bar"><div class="skill-progress" style="width: 80%"></div></div></div>
+            <div class="skill-card reveal"><span class="skill-icon">📱</span><h3 class="skill-name">Android</h3><div class="skill-bar"><div class="skill-progress" style="width: 85%"></div></div></div>
         </div>
     </section>
 
     <section id="contact" class="reveal">
-        <h2 class="section-title">İLETİŞİM</h2>
+        <h2 class="section-title" data-tr="İLETİŞİM" data-en="CONTACT">İLETİŞİM</h2>
         <div class="contact-container">
-            <p class="contact-text">muraterdemir@gmail.com</p>
+            <p class="contact-text" data-tr="muraterdemir@gmail.com" data-en="muraterdemir@gmail.com">muraterdemir@gmail.com</p>
             <div class="social-links">
                 <a href="https://wa.me/905537137010" target="_blank" class="social-btn whatsapp-btn">💬</a>
+                <a href="https://instagram.com/murat_erd42" target="_blank" class="social-btn">📸</a>
             </div>
         </div>
     </section>
 
-    <div id="modal-ecotales" class="modal">
-        <div class="modal-content store-panel">
-            <span class="close-btn" onclick="closeModal('modal-ecotales')">&times;</span>
-            <div class="store-header">
-                <img src="assets/images/games/eco-tales/eco-tales-icon.png" class="store-main-icon">
-                <div class="store-title-area"><h2>Eco Tales: Clean the Earth</h2><span class="store-developer">Murat Erdemir</span></div>
-            </div>
-        </div>
-    </div>
+    <footer>
+        <p>© 2026 Murat ERDEMİR | Tüm Hakları Saklıdır</p>
+    </footer>
 
-    <div id="modal-pazartesi" class="modal">
-        <div class="modal-content store-panel">
-            <span class="close-btn" onclick="closeModal('modal-pazartesi')">&times;</span>
-            <div class="store-header">
-                <img src="assets/images/games/eco-tales/eco-tales-icon.png" class="store-main-icon">
-                <div class="store-title-area">
-                    <h2>Pazartesi: AI & Unity Atölyesi</h2>
-                    <span class="store-developer">Murat Erdemir | 14 Yıllık Eğitimci Tecrübesi</span>
-                    <p class="store-spot">Birebir canlı seans ile çocuğunuzun dijital dünyadaki ilk profesyonel adımını atın.</p>
-                </div>
-                <div class="store-action">
-                    <a href="https://www.shopier.com/MuratErdemirLab/46229331" target="_blank" class="store-download-btn">🛒 SATIN AL (SHOPIER)</a>
-                </div>
-            </div>
-            <div class="store-description">
-                <h3>🛡️ NEDEN SHOPIER İLE ÇALIŞIYORUZ?</h3>
-                <ul class="store-features">
-                    <li><span>✅ Güvenli Ödeme:</span> BDDK lisanslı altyapı ile kart bilgileriniz asla saklanmaz.</li>
-                    <li><span>💳 Taksit İmkanı:</span> Tüm kredi kartlarına uygun taksit seçenekleri sunulur.</li>
-                    <li><span>📧 Anında Onay:</span> Ödeme sonrası Murat Hoca sizinle 24 saat içinde irtibata geçer.</li>
-                </ul>
-            </div>
-        </div>
-    </div>
+    <div id="modal-ecotales" class="modal"><div class="modal-content store-panel"><span class="close-btn" onclick="closeModal('modal-ecotales')">&times;</span><div class="store-header"><h2>Eco Tales</h2></div></div></div>
+    <div id="modal-faruk" class="modal"><div class="modal-content store-panel"><span class="close-btn" onclick="closeModal('modal-faruk')">&times;</span><div class="store-header"><h2>Faruk Flick Up</h2></div></div></div>
+    <div id="modal-bamboozle" class="modal"><div class="modal-content store-panel"><span class="close-btn" onclick="closeModal('modal-bamboozle')">&times;</span><div class="store-header"><h2>Bamboozle</h2></div></div></div>
 
-    <div id="modal-sali" class="modal">
-        <div class="modal-content store-panel">
-            <span class="close-btn" onclick="closeModal('modal-sali')">&times;</span>
-            <div class="store-header">
-                <img src="assets/images/games/eco-tales/eco-tales-icon.png" class="store-main-icon">
-                <div class="store-title-area">
-                    <h2>Salı: AI & Unity Atölyesi</h2>
-                    <span class="store-developer">Murat Erdemir</span>
-                </div>
-                <div class="store-action">
-                    <a href="https://www.shopier.com/MuratErdemirLab/46229515" target="_blank" class="store-download-btn">🛒 SATIN AL (SHOPIER)</a>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <div id="modal-carsamba" class="modal">
-        <div class="modal-content store-panel">
-            <span class="close-btn" onclick="closeModal('modal-carsamba')">&times;</span>
-            <div class="store-header">
-                <img src="assets/images/games/eco-tales/eco-tales-icon.png" class="store-main-icon">
-                <div class="store-title-area">
-                    <h2>Çarşamba: AI & Unity Atölyesi</h2>
-                    <span class="store-developer">Murat Erdemir</span>
-                </div>
-                <div class="store-action">
-                    <a href="https://www.shopier.com/MuratErdemirLab/46229639" target="_blank" class="store-download-btn">🛒 SATIN AL (SHOPIER)</a>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <div id="modal-persembe" class="modal">
-        <div class="modal-content store-panel">
-            <span class="close-btn" onclick="closeModal('modal-persembe')">&times;</span>
-            <div class="store-header">
-                <img src="assets/images/games/eco-tales/eco-tales-icon.png" class="store-main-icon">
-                <div class="store-title-area">
-                    <h2>Perşembe: AI & Unity Atölyesi</h2>
-                    <span class="store-developer">Murat Erdemir</span>
-                </div>
-                <div class="store-action">
-                    <a href="https://www.shopier.com/MuratErdemirLab/46229744" target="_blank" class="store-download-btn">🛒 SATIN AL (SHOPIER)</a>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <div id="modal-cuma" class="modal">
-        <div class="modal-content store-panel">
-            <span class="close-btn" onclick="closeModal('modal-cuma')">&times;</span>
-            <div class="store-header">
-                <img src="assets/images/games/eco-tales/eco-tales-icon.png" class="store-main-icon">
-                <div class="store-title-area">
-                    <h2>Cuma: AI & Unity Atölyesi</h2>
-                    <span class="store-developer">Murat Erdemir</span>
-                </div>
-                <div class="store-action">
-                    <a href="https://www.shopier.com/MuratErdemirLab/46229840" target="_blank" class="store-download-btn">🛒 SATIN AL (SHOPIER)</a>
-                </div>
-            </div>
-        </div>
-    </div>
+    <div id="modal-pazartesi" class="modal"><div class="modal-content store-panel"><span class="close-btn" onclick="closeModal('modal-pazartesi')">&times;</span><div class="store-header"><h2>Pazartesi Seansı</h2><div class="store-action"><a href="https://www.shopier.com/MuratErdemirLab/46229331" target="_blank" class="store-download-btn">🛒 SATIN AL (SHOPIER)</a></div></div><div class="store-description"><p data-tr="14 Yıllık Eğitimci tecrübesi ile birebir canlı seans. Shopier üzerinden güvenle kayıt olabilirsiniz." data-en="1-on-1 live session with 14 years of teaching experience. Secure registration via Shopier.">14 Yıllık Eğitimci tecrübesi ile birebir canlı seans. Shopier üzerinden güvenle kayıt olabilirsiniz.</p></div></div></div>
+    <div id="modal-sali" class="modal"><div class="modal-content store-panel"><span class="close-btn" onclick="closeModal('modal-sali')">&times;</span><div class="store-header"><h2>Salı Seansı</h2><div class="store-action"><a href="https://www.shopier.com/MuratErdemirLab/46229515" target="_blank" class="store-download-btn">🛒 SATIN AL (SHOPIER)</a></div></div></div></div>
+    <div id="modal-carsamba" class="modal"><div class="modal-content store-panel"><span class="close-btn" onclick="closeModal('modal-carsamba')">&times;</span><div class="store-header"><h2>Çarşamba Seansı</h2><div class="store-action"><a href="https://www.shopier.com/MuratErdemirLab/46229639" target="_blank" class="store-download-btn">🛒 SATIN AL (SHOPIER)</a></div></div></div></div>
+    <div id="modal-persembe" class="modal"><div class="modal-content store-panel"><span class="close-btn" onclick="closeModal('modal-persembe')">&times;</span><div class="store-header"><h2>Perşembe Seansı</h2><div class="store-action"><a href="https://www.shopier.com/MuratErdemirLab/46229744" target="_blank" class="store-download-btn">🛒 SATIN AL (SHOPIER)</a></div></div></div></div>
+    <div id="modal-cuma" class="modal"><div class="modal-content store-panel"><span class="close-btn" onclick="closeModal('modal-cuma')">&times;</span><div class="store-header"><h2>Cuma Seansı</h2><div class="store-action"><a href="https://www.shopier.com/MuratErdemirLab/46229840" target="_blank" class="store-download-btn">🛒 SATIN AL (SHOPIER)</a></div></div></div></div>
 
     <script src="js/main.js"></script>
 </body>
