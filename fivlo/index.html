@@ -11,6 +11,15 @@
 <meta property="og:type" content="website">
 
 <link rel="stylesheet" href="stil.css">
+<script>
+  // Linke basan kişinin cihazına göre doğrudan mağazaya yönlendir (masaüstünde bu sayfa kalır).
+  (function () {
+    var u = navigator.userAgent || '';
+    var ios = /iPhone|iPad|iPod/.test(u) || (navigator.platform === 'MacIntel' && navigator.maxTouchPoints > 1);
+    if (ios) location.replace('https://apps.apple.com/tr/app/id6827251633');
+    else if (/Android/i.test(u)) location.replace('https://play.google.com/store/apps/details?id=com.muraterdemir.fivlo');
+  })();
+</script>
 <style>
   .orta { text-align:center; padding-top:48px; }
   .simge { width:96px; height:96px; border-radius:22px; box-shadow:0 8px 30px rgba(0,217,224,.25); }
