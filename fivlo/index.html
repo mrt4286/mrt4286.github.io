@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Fivlo — Dijital Kültür Merkezi</title>
-<meta name="description" content="Bu içerik Fivlo'da paylaşıldı. Haberler, bilgi kartları, kitaplar ve topluluk tek uygulamada.">
+<meta name="description" content="Haberler, bilgi kartları, kitaplar ve topluluk tek uygulamada.">
 <meta property="og:title" content="Fivlo — Dijital Kültür Merkezi">
 <meta property="og:description" content="Haberler, bilgi kartları, kitaplar ve topluluk tek uygulamada.">
 <meta property="og:image" content="https://muraterdemir.dev/fivlo/fivlo.png">
@@ -28,24 +28,12 @@
   <p class="not">Dijital Kültür Merkezi</p>
   <p>Haberler, bilgi kartları, kitaplar ve topluluk tek uygulamada.</p>
 
-  <a id="ac" class="dugme" href="fivlo://kart/">Uygulamayı aç</a>
-
-  <p class="ipucu">Uygulaman yok mu? Ücretsiz indir:</p>
+  <p class="ipucu">Ücretsiz indir:</p>
   <div class="magaza">
     <a class="dugme ikinci" href="https://play.google.com/store/apps/details?id=com.muraterdemir.fivlo">Google Play</a>
     <a class="dugme ikinci" href="https://apps.apple.com/tr/app/id6827251633">App Store</a>
   </div>
   <p class="ipucu"><a href="gizlilik.html">Gizlilik</a> · <a href="topluluk-kurallari.html">Topluluk Kuralları</a></p>
 </div>
-<script>
-  (function () {
-    var q = new URLSearchParams(location.search);
-    var t = q.get('t') === 'kitap' ? 'kitap' : 'kart';
-    var id = q.get('id');
-    var a = document.getElementById('ac');
-    if (id) a.href = 'fivlo://' + t + '/' + encodeURIComponent(id);
-    else a.href = 'fivlo://kart/';
-  })();
-</script>
 </body>
 </html>
