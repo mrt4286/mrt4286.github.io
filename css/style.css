@@ -1186,3 +1186,63 @@ a.store-chip:hover {
     #games .section-title { font-size: 1.55rem; letter-spacing: 1px; word-break: break-word; }
     .card-vertical { width: 100%; max-width: 340px; }
 }
+
+
+/* =========================================================
+   MOBİL OPTİMİZASYON (telefon): üstte sabit yatay menü, dil düğmesi sağ üstte, hero menünün altında kalmaz
+   ========================================================= */
+@media (max-width: 768px) {
+    html, body { overflow-x: hidden; }
+
+    nav {
+        top: 0;
+        left: 0;
+        right: 0;
+        transform: none;
+        width: 100%;
+        border-radius: 0;
+        border: 0;
+        border-bottom: 1px solid rgba(0, 243, 255, 0.3);
+        padding: 10px 108px 10px 12px;
+    }
+    nav ul {
+        flex-wrap: nowrap;
+        justify-content: flex-start;
+        gap: 18px;
+        overflow-x: auto;
+        scrollbar-width: none;
+        -webkit-overflow-scrolling: touch;
+    }
+    nav ul::-webkit-scrollbar { display: none; }
+    nav a {
+        display: block;
+        font-size: 0.72rem;
+        letter-spacing: 0.5px;
+        white-space: nowrap;
+        padding: 6px 0;
+    }
+    nav a::after { display: none; }
+
+    .lang-switch {
+        top: 7px;
+        right: 8px;
+        bottom: auto;
+        transform: none;
+        padding: 3px;
+        gap: 2px;
+        z-index: 1001;
+    }
+    .lang-btn { padding: 5px 9px; font-size: 0.68rem; }
+
+    .hero {
+        min-height: 100vh;
+        padding: 84px 20px 50px;
+    }
+    .hero-profile-container { width: 150px; height: 150px; margin-bottom: 24px; }
+    .subtitle { font-size: 1rem; letter-spacing: 1.5px; }
+    .tagline { font-size: 1rem; margin-bottom: 28px; padding: 0 4px; }
+    .cta-button { padding: 13px 26px; font-size: 0.95rem; letter-spacing: 1px; }
+
+    section { scroll-margin-top: 56px; }
+    .section-title { font-size: 1.7rem; margin-bottom: 34px; }
+}
