@@ -31,21 +31,23 @@
   <h1>Patlayan Lezzetler</h1>
   <p id="aciklama">Türkiye'nin 81 ilinin lezzetlerini eşleştir, patlat, keşfet!</p>
   <a class="btn" id="play" href="https://play.google.com/store/apps/details?id=com.FarukGames.FarukFlickUp">Google Play'den indir</a>
-  <a class="btn pasif" id="ios" href="#">App Store: yakında / soon</a>
+  <a class="btn" id="ios" href="https://apps.apple.com/tr/app/patlayan-lezzetler/id6833600605?l=tr">App Store'dan indir</a>
   <small><a href="mailto:muraterdemir42@gmail.com" style="color:inherit">muraterdemir42@gmail.com</a></small>
 </div>
 <script>
 (function(){
   var play="https://play.google.com/store/apps/details?id=com.FarukGames.FarukFlickUp";
+  var ios="https://apps.apple.com/tr/app/patlayan-lezzetler/id6833600605?l=tr";
   var ua=navigator.userAgent||"";
   var en=!/^tr/i.test(navigator.language||"tr");
   if(en){
     document.documentElement.lang="en";
     document.getElementById("aciklama").textContent="Match and pop the flavors of Türkiye's 81 provinces!";
     document.getElementById("play").textContent="Get it on Google Play";
+    document.getElementById("ios").textContent="Download on the App Store";
   }
-  // Android ve masaüstü: doğrudan Google Play'e. iPhone/iPad: kartta kalır (App Store bağlantısı yayında eklenecek).
-  if(!/iPhone|iPad|iPod/i.test(ua)){ setTimeout(function(){ location.replace(play); }, 250); }
+  // iPhone/iPad: doğrudan App Store'a; Android ve masaüstü: Google Play'e.
+  setTimeout(function(){ location.replace(/iPhone|iPad|iPod/i.test(ua) ? ios : play); }, 250);
 })();
 </script>
 </body>
