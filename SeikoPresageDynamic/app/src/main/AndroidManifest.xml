@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <uses-feature android:name="android.hardware.type.watch" />
+
+    <!-- Needed by the [STEP_COUNT] / [STEP_PERCENT] data sources. -->
+    <uses-permission android:name="android.permission.ACTIVITY_RECOGNITION" />
+
+    <!-- WFF = resource-only package: hasCode MUST be false, there are no classes. -->
+    <application
+        android:allowBackup="false"
+        android:hasCode="false"
+        android:label="@string/app_name">
+
+        <!-- Watch Face Format version 2 (Wear OS 5+) -->
+        <property
+            android:name="com.google.wear.watchface.format.version"
+            android:value="2" />
+    </application>
+</manifest>
