@@ -10,4 +10,40 @@
   <url><loc>https://muraterdemir.dev/patlayan/destek.html</loc><priority>0.3</priority></url>
   <url><loc>https://muraterdemir.dev/patlayan/gizlilik.html</loc><priority>0.3</priority></url>
   <url><loc>https://muraterdemir.dev/fivlo/</loc><priority>0.6</priority></url>
+  <url><loc>https://muraterdemir.dev/lezzetler/</loc><lastmod>2026-11-26</lastmod><priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://muraterdemir.dev/lezzetler/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://muraterdemir.dev/lezzetler/en/"/></url>
+  <url><loc>https://muraterdemir.dev/lezzetler/en/</loc><lastmod>2026-11-26</lastmod><priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://muraterdemir.dev/lezzetler/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://muraterdemir.dev/lezzetler/en/"/></url>
+  <url><loc>https://muraterdemir.dev/lezzetler/gaziantep/</loc><lastmod>2026-11-26</lastmod><priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://muraterdemir.dev/lezzetler/gaziantep/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://muraterdemir.dev/lezzetler/en/gaziantep/"/></url>
+  <url><loc>https://muraterdemir.dev/lezzetler/en/gaziantep/</loc><lastmod>2026-11-26</lastmod><priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://muraterdemir.dev/lezzetler/gaziantep/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://muraterdemir.dev/lezzetler/en/gaziantep/"/></url>
+  <url><loc>https://muraterdemir.dev/lezzetler/hatay/</loc><lastmod>2026-11-26</lastmod><priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://muraterdemir.dev/lezzetler/hatay/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://muraterdemir.dev/lezzetler/en/hatay/"/></url>
+  <url><loc>https://muraterdemir.dev/lezzetler/en/hatay/</loc><lastmod>2026-11-26</lastmod><priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://muraterdemir.dev/lezzetler/hatay/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://muraterdemir.dev/lezzetler/en/hatay/"/></url>
+  <url><loc>https://muraterdemir.dev/lezzetler/adana/</loc><lastmod>2026-11-26</lastmod><priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://muraterdemir.dev/lezzetler/adana/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://muraterdemir.dev/lezzetler/en/adana/"/></url>
+  <url><loc>https://muraterdemir.dev/lezzetler/en/adana/</loc><lastmod>2026-11-26</lastmod><priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://muraterdemir.dev/lezzetler/adana/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://muraterdemir.dev/lezzetler/en/adana/"/></url>
+  <url><loc>https://muraterdemir.dev/lezzetler/afyonkarahisar/</loc><lastmod>2026-11-26</lastmod><priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://muraterdemir.dev/lezzetler/afyonkarahisar/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://muraterdemir.dev/lezzetler/en/afyonkarahisar/"/></url>
+  <url><loc>https://muraterdemir.dev/lezzetler/en/afyonkarahisar/</loc><lastmod>2026-11-26</lastmod><priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://muraterdemir.dev/lezzetler/afyonkarahisar/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://muraterdemir.dev/lezzetler/en/afyonkarahisar/"/></url>
+  <url><loc>https://muraterdemir.dev/lezzetler/bursa/</loc><lastmod>2026-11-26</lastmod><priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://muraterdemir.dev/lezzetler/bursa/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://muraterdemir.dev/lezzetler/en/bursa/"/></url>
+  <url><loc>https://muraterdemir.dev/lezzetler/en/bursa/</loc><lastmod>2026-11-26</lastmod><priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://muraterdemir.dev/lezzetler/bursa/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://muraterdemir.dev/lezzetler/en/bursa/"/></url>
 </urlset>
